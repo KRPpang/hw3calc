@@ -63,6 +63,4 @@ const calculateEquals = () =>{
         firstNum = result;
         numArrTwo = [];
     }
-    
-    
 }
