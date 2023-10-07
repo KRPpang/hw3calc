@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Homework3</title>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+        <div class="calculator">
+            <section class="header">
+                <input type="text" id="display">
+            </section>
+            <div class="buttons">
+                <section class="row1">
+                    <button Onclick="getNumber(7)">7</button>
+                    <button Onclick="getNumber(8)">8</button>
+                    <button Onclick="getNumber(9)">9</button>
+                    <button Onclick="getOperator('+')">+</button>
+                </section>
+                <section class="row2">
+                    <button Onclick="getNumber(4)">4</button>
+                    <button Onclick="getNumber(5)">5</button>
+                    <button Onclick="getNumber(6)">6</button>
+                    <button Onclick="getOperator('-')">-</button>
+                </section>
+                <section class="row3">
+
+                    <button Onclick="getNumber(1)">1</button>
+                    <button Onclick="getNumber(2)">2</button>
+                    <button Onclick="getNumber(3)">3</button>
+                    <button Onclick="getOperator('*')">*</button>
+                </section>
+                <section class="row4">
+                    <button Onclick="clearDisplay()">C</button>
+                    <button Onclick="getNumber(0)">0</button>
+                    <button Onclick="calculateEquals()">=</button>
+                    <button Onclick="getOperator('/')">/</button>
+
+                </section>
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+
+    </body>
+</html>
